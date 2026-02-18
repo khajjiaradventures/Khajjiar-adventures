@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Khajjiar Adventures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+            background: #f4fff4;
+            text-align: center;
+        }
+        header {
+            background: #1b5e20;
+            color: white;
+            padding: 30px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .package {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #2e7d32;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #1b5e20;
+            color: white;
+            padding: 20px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Khajjiar Adventures</h1>
+    <p>Explore. Experience. Elevate.</p>
+</header>
+
+<div class="section">
+    <h2>Adventure Packages</h2>
+
+    <div class="package">
+        <h3>Basic Adventure - ₹1999</h3>
+        <p>Camping + Bonfire + Breakfast</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="package">
+        <h3>Thrill Combo - ₹3999</h3>
+        <p>Paragliding + Camping + Dinner</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="package">
+        <h3>Premium Stay - ₹6999</h3>
+        <p>Hotel Stay + Paragliding + Horse Riding</p>
+        <button>Book Now</button>
+    </div>
+</div>
+
+<div class="section">
+    <h2>WhatsApp Booking</h2>
+    <p>
+        <a href="https://wa.me/919999999999">
+            Click Here to Book on WhatsApp
+        </a>
+    </p>
+</div>
+
+<footer>
+    <p>Contact: +91-9999999999 | +91-8888888888</p>
+    <p>Online Payment & Cash on Arrival Available</p>
+    <p>© 2026 Khajjiar Adventures</p>
+</footer>
+
+</body>
+</html>
